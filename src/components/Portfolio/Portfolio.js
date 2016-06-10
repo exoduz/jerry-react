@@ -18,17 +18,8 @@ class Portfolio extends React.Component {
 	_loadData() {
 		var url = '/assets/data/portfolio.json';
 		this.serverRequest = $.getJSON(url, function(data) {
-		  //this.setState({ portfolio: data });
+		  this.setState({ portfolio: data });
 		}.bind(this));
-
-		this.setState({
-			portfolio: {
-				filters: {
-					filter1: { name: "All", category: "*" },
-					filter2: { name: "Alli", category: "asdf" }
-				}
-			}
-		});
 	};
 
 	componentDidMount() {
