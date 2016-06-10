@@ -1,0 +1,15 @@
+{
+	"filters": {
+		"filter1": { "name": "All", "category": "*" },
+		"filter2": { "name": "Free Standing Inserts (FSIs)", "category": ".fsi" },
+		"filter3": { "name": "Point-of-Sale (POS)", "category": ".pos" },
+		"filter4": { "name": "Displays", "category": ".display" },
+		"filter5": { "name": "Digital", "category": ".digital"},
+		"filter6": { "name": "Print", "category": ".print" },
+		"filter7": { "name": "ID", "category": ".id" },
+		"filter8": { "name": "Fun Stuff", "category": ".fun" }
+	},
+	"portfolio": {
+
+	}
+}
