@@ -10,6 +10,173 @@
 		"filter8": { "name": "Fun Stuff", "category": ".fun" }
 	},
 	"portfolio": {
-
+		"portfolio1": {
+			"name": "",
+			"description": "",
+			"category": "fsi",
+			"image": "assets/img/portfolio/fsi/birdseye_dko-fsi.jpg"
+		},
+		"portfolio2": {
+			"name": "",
+			"description": "",
+			"category": "fsi",
+			"image": "assets/img/portfolio/fsi/coke_game-fsi.jpg"
+		},
+		"portfolio3": {
+			"name": "",
+			"description": "",
+			"category": "fsi",
+			"image": "assets/img/portfolio/fsi/nestle_pie-fsi.jpg"
+		},
+		"portfolio4": {
+			"name": "",
+			"description": "",
+			"category": "fsi",
+			"image": "assets/img/portfolio/fsi/orville_coke-fsi.jpg"
+		},
+		"portfolio5": {
+			"name": "",
+			"description": "",
+			"category": "pos",
+			"image": "assets/img/portfolio/pos/asiangourmet-pos.jpg"
+		},
+		"portfolio6": {
+			"name": "",
+			"description": "",
+			"category": "pos",
+			"image": "assets/img/portfolio/pos/lawry_bbq-pos.png"
+		},
+		"portfolio7": {
+			"name": "",
+			"description": "",
+			"category": "pos",
+			"image": "assets/img/portfolio/pos/nestle_pie-pos.jpg"
+		},
+		"portfolio8": {
+			"name": "",
+			"description": "",
+			"category": "pos",
+			"image": "assets/img/portfolio/pos/stouffer_coke-pos.jpg"
+		},
+		"portfolio9": {
+			"name": "",
+			"description": "",
+			"category": "display",
+			"image": "assets/img/portfolio/display/cheezit_coke-display.png"
+		},
+		"portfolio10": {
+			"name": "",
+			"description": "",
+			"category": "display",
+			"image": "assets/img/portfolio/display/emerald_coke-display.png"
+		},
+		"portfolio11": {
+			"name": "",
+			"description": "",
+			"category": "display",
+			"image": "assets/img/portfolio/display/lawrys_chips-display.png"
+		},
+		"portfolio12": {
+			"name": "",
+			"description": "",
+			"category": "display",
+			"image": "assets/img/portfolio/display/orville_coke-display.png"
+		},
+		"portfolio13": {
+			"name": "",
+			"description": "",
+			"category": "digital",
+			"image": "assets/img/portfolio/digital/banners1.jpg"
+		},
+		"portfolio14": {
+			"name": "",
+			"description": "",
+			"category": "digital",
+			"image": "assets/img/portfolio/digital/burlap-site.jpg"
+		},
+		"portfolio15": {
+			"name": "",
+			"description": "",
+			"category": "digital",
+			"image": "assets/img/portfolio/digital/ecocentric-site.jpg"
+		},
+		"portfolio16": {
+			"name": "",
+			"description": "",
+			"category": "digital",
+			"image": "assets/img/portfolio/digital/solano-site.jpg"
+		},
+		"portfolio17": {
+			"name": "",
+			"description": "",
+			"category": "print",
+			"image": "assets/img/portfolio/print/print-coke1.jpg"
+		},
+		"portfolio18": {
+			"name": "",
+			"description": "3-foot high poster series for an Epiphany Center Dinner/Fundraiser to help raise awareness and funding.",
+			"category": "print",
+			"image": "assets/img/portfolio/print/print-posters6.jpg"
+		},
+		"portfolio19": {
+			"name": "",
+			"description": "",
+			"category": "print",
+			"image": "assets/img/portfolio/print/print-sacredheart.jpg"
+		},
+		"portfolio20": {
+			"name": "",
+			"description": "This Spa Certificate was for the national sales force and their significant others at a company's sales and brain-storming event.",
+			"category": "print",
+			"image": "assets/img/portfolio/print/print-spa3.jpg"
+		},
+		"portfolio21": {
+			"name": "",
+			"description": "ID design for a clothing company using burlap material for their clothing.",
+			"category": "id",
+			"image": "assets/img/portfolio/id/id-burlap4.jpg"
+		},
+		"portfolio22": {
+			"name": "",
+			"description": "ID design for an architecture company specializing in using materials that are sustainable and eco-friendly.",
+			"category": "id",
+			"image": "assets/img/portfolio/id/id-ecocentric1.jpg"
+		},
+		"portfolio23": {
+			"name": "",
+			"description": "ID design for a studio specializing in photographing and videographing special events and providing CD/DVDs for those special memories.",
+			"category": "id",
+			"image": "assets/img/portfolio/id/id-giggles2.jpg"
+		},
+		"portfolio24": {
+			"name": "",
+			"description": "ID design for a Colorado-based bistro which specializes in brick-oven pizzas.",
+			"category": "id",
+			"image": "assets/img/portfolio/id/id-rustic_over3.jpg"
+		},
+		"portfolio25": {
+			"name": "",
+			"description": "Portrait of a friend for his graduation card and poster.",
+			"category": "fun",
+			"image": "assets/img/portfolio/fun/art-ian1.jpg"
+		},
+		"portfolio26": {
+			"name": "",
+			"description": "Portrait of a friend's daughter for her birthday card.",
+			"category": "fun",
+			"image": "assets/img/portfolio/fun/art-malaya2.jpg"
+		},
+		"portfolio27": {
+			"name": "",
+			"description": "",
+			"category": "fun",
+			"image": "assets/img/portfolio/fun/id-johnnyking2.jpg"
+		},
+		"portfolio28": {
+			"name": "",
+			"description": "Bikers",
+			"category": "fun",
+			"image": "assets/img/portfolio/fun/art-bikers4.jpg"
+		}
 	}
 }

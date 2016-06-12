@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Filter from './Filter';
-import data from 'json!./../../../build/assets/data/portfolio.json';
+import Grid from './Grid';
 
 class Portfolio extends React.Component {
 	constructor() {
@@ -12,18 +12,12 @@ class Portfolio extends React.Component {
     }
   }
 
-  /**
-	 Retrieve data from JSON file
-	*/
-	_loadData() {
+	componentDidMount() {
+		//retrieve data from JSON file
 		var url = '/assets/data/portfolio.json';
 		this.serverRequest = $.getJSON(url, function(data) {
 		  this.setState({ portfolio: data });
 		}.bind(this));
-	};
-
-	componentDidMount() {
-		this._loadData();
 	}
 
 	componentWillUnmount() {
@@ -35,8 +29,8 @@ class Portfolio extends React.Component {
 			<section id="portfolio">
 				<div className="container text-center">
 					<h2>Portfolio</h2>
-
 					<Filter filters={ this.state.portfolio.filters } />
+					<Grid data={ this.state.portfolio.portfolio } />
 				</div>{/* .containter */}
 			</section>
 		)
