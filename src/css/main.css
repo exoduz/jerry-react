@@ -97,7 +97,7 @@ a.icon:hover, a.icon:focus, a.icon:active {}
   margin-right: 15px;
 }
 
-.grid {}
+.grid { position: relative; margin-left: 10px; margin-right: 10px; }
 .grid-item { width: 20%; }
 
 @media (min-width: 768px) and (max-width: 991px) {

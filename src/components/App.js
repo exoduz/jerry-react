@@ -7,11 +7,15 @@ import ReactDOM from 'react-dom';
 import $ from 'jquery';
 window.jQuery = window.$ = $;
 require('bootstrap');
-//require('../js/app.js');
+require('../../node_modules/isotope-layout/dist/isotope.pkgd.min.js');
+require('../js/lib/imagesLoaded/imagesloaded.pkgd.min.js');
+require('../js/lib/magnific-popup/jquery.magnific-popup.min.js');
+require('../js/app.js');
 
 /**
  CSS
 */
+require('../css/magnific-popup/magnific-popup.css');
 require('../css/main.css');
 
 /**

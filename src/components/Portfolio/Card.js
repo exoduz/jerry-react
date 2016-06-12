@@ -8,13 +8,13 @@ class Card extends React.Component {
 			image = this.props.data[key].image;
 
 		return (
-			<div key={ key } class="grid-item { category }">
-				<div class="card">
+			<div key={ key } className={ 'grid-item ' + category }>
+				<div className="card">
 					<a href={ image } target="_blank">
 						<img src={ image } alt={ name ? name : category } />
 					</a>
 					{ name ? <h4>{ name }</h4> : '' }
-					{ description ? <p className="name">{ description }</p> : '' }
+					{ description ? <p classNameName="name">{ description }</p> : '' }
 				</div>{/* .card */}
 			</div>
 		)
