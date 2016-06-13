@@ -91,6 +91,7 @@ header {
 a.icon { margin-right: 12px; border-bottom: 0; }
 a.icon:hover, a.icon:focus, a.icon:active {}
 
+#portfolio {}
 #portfolio .container { margin-bottom: 25px; }
 .portfolio-filter li {
   display: inline;
@@ -117,6 +118,7 @@ a.icon:hover, a.icon:focus, a.icon:active {}
   margin: 10px;
   padding: 10px;
   background: #fff;
+  border: 1px solid #ededed;
   border-radius: 8px;
 }
 .card img {

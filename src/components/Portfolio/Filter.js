@@ -9,13 +9,8 @@ class Filter extends React.Component {
 		return <li key={ index }><a href="#" className="filter-options" data-filter={ category }>{ name }</a></li>;
 	}
 
-	componentDidMount() {
-		console.log('Filter CDM');
-	}
-
 	render() {
 		var filters = this.props.filters;
-		console.log('Portfolio Render');
 		
 		return (
 			<ul className="portfolio-filter">
