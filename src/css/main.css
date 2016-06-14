@@ -200,7 +200,7 @@ a.icon:hover, a.icon:focus, a.icon:active {}
   #contact-form input.form-control.error, #contact textarea.form-control.error { border: 1px solid #f00; }
 
 #contact-form form textarea {
-  height: 250px;
+  height: 150px;
 }
 
 #contact-form label {
@@ -210,6 +210,38 @@ a.icon:hover, a.icon:focus, a.icon:active {}
   #control-form label.error { font-weight: bold; }
   #contact-form label::first-letter { text-transform: uppercase; }
   #contact-form label.error { color: #f1433d; }
+
+#contact-form button {
+  padding: 12px 60px 10px;
+  background: #55626d;
+  color: #fff;
+  font-weight: normal;
+  -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -ms-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+}
+  #contact-form button:hover {
+    background: #52964b;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+  }
+  #contact-form button.success {
+    background: #58c333;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+  }
+  #contact-form button.error {
+    background: #f00;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+  }
 
 #contact-form .btn-container { margin: 12px 0; }
 
