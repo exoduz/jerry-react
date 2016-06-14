@@ -185,10 +185,9 @@ a.icon:hover, a.icon:focus, a.icon:active {}
 
 #contact-form .form-group { margin-bottom: 0; }
 #contact-form form input, #contact form textarea {
-  height: 50px;
   border: 1px solid #ddd;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
 }
   #contact-form form input:focus, #contact form textarea:focus {
@@ -207,10 +206,10 @@ a.icon:hover, a.icon:focus, a.icon:active {}
 #contact-form label {
   color: #666;
   font-size: 0.7rem;
-  font-weight: bold;
 }
+  #control-form label.error { font-weight: bold; }
   #contact-form label::first-letter { text-transform: uppercase; }
-  #contact-form label.error { color: #f1433d; font-weight: 500; }
+  #contact-form label.error { color: #f1433d; }
 
 #contact-form .btn-container { margin: 12px 0; }
 

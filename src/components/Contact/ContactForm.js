@@ -42,7 +42,7 @@ class ContactForm extends React.Component {
 			name: {
 				type: 'text',
 				fieldName: 'name',
-				class_name: 'form-control input-lg',
+				class_name: 'form-control',
 				validation: {
       		isRequired: {
         		errorMessage: 'This field is required.'
@@ -52,7 +52,7 @@ class ContactForm extends React.Component {
 			email: {
 				type: 'email',
 				fieldName: 'email',
-				class_name: 'form-control input-lg',
+				class_name: 'form-control',
 				validation: {
       		isRequired: {
         		errorMessage: 'This field is required.'
@@ -240,7 +240,7 @@ class ContactForm extends React.Component {
        <h2>Contact</h2>
 
       <form id="home-contact-form" onSubmit={ this.handleSubmit } novalidate>
-        <h4>Please fill out all the fields</h4>
+        <p>All the fields are required</p>
         
 				{ Object.keys(this._getData()).map(key => this.renderFields(key)) }
 
