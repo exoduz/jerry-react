@@ -24,6 +24,7 @@ require('../css/main.css');
 import Header from './Layouts/Header';
 import Profile from './Profile/Profile';
 import Portfolio from './Portfolio/Portfolio';
+import Contact from './Contact/Contact';
 import Footer from './Layouts/Footer';
 
 class App extends React.Component {
@@ -33,6 +34,7 @@ class App extends React.Component {
 				<Header />
 				<Profile />
 				<Portfolio />
+				<Contact />
 				<Footer />
 			</div>
 		)

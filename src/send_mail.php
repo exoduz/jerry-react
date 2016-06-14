@@ -9,9 +9,9 @@ $message = $_REQUEST["message"];
 //check posted data
 if (!empty($_REQUEST)) {
 	if ($name && $email && $email_valid && $message) { //simple final validation
-		$to      = 'robin.julius+resume_contact_form@gmail.com';
-		$subject = 'New enquiry from Robin Julius website';
-		$headers = 'From: resume_contact@robinjulius.com' . "\r\n" .
+		$to      = 'jerry.yeoh1270+website_contact_form@gmail.com';
+		$subject = 'New enquiry from Jerry Yeoh website';
+		$headers = 'From: website_contact@jydsgn.com' . "\r\n" .
 		    'Reply-To: ' . $email . "\r\n" .
 		    'X-Mailer: PHP/' . phpversion();
 
