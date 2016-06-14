@@ -91,12 +91,24 @@ header {
 a.icon { margin-right: 12px; border-bottom: 0; }
 a.icon:hover, a.icon:focus, a.icon:active {}
 
-#portfolio {}
-#portfolio .container { margin-bottom: 25px; }
+.dot-separator {
+  width: 14px;
+  height: 14px;
+  left: 50%;
+  margin: 15px auto;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: #bed42a;
+  box-shadow: 30px 0 #bed42a, -30px 0 #bed42a;
+}
+
 .portfolio-filter li {
   display: inline;
+  font-size: 0.9rem;
   margin-right: 15px;
 }
+  .portfolio-filter li:last-child { margin-right: 0; }
 
 .grid { position: relative; margin-left: 10px; margin-right: 10px; }
 .grid-item { width: 20%; }

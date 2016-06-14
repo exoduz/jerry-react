@@ -39,6 +39,7 @@ class Profile extends React.Component {
 						</a>				
 					</div>{/* .col-md-12 .cv */}
 				</div>{/* .row */}
+				<div className="dot-separator"></div>
 			</section>
 		)
 	}

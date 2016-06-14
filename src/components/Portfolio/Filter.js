@@ -14,7 +14,6 @@ class Filter extends React.Component {
 		
 		return (
 			<ul className="portfolio-filter">
-				<li><strong>Filter</strong></li>
 				{ Object.keys(filters).map(index => this.renderFilter(index)) }
 			</ul>
 		)

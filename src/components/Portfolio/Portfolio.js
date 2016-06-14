@@ -21,6 +21,8 @@ class Portfolio extends React.Component {
 				</div>{/* .containter */}
 
 				<Grid data={ this.state.portfolio.portfolio } />
+
+				<div className="dot-separator"></div>
 			</section>
 		)
 	}
