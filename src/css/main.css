@@ -185,9 +185,10 @@ a.icon:hover, a.icon:focus, a.icon:active {}
 
 #contact-form .form-group { margin-bottom: 0; }
 #contact-form form input, #contact form textarea {
+  height: 40px;
   border: 1px solid #ddd;
   font-family: inherit;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
 }
   #contact-form form input:focus, #contact form textarea:focus {
@@ -222,7 +223,7 @@ a.icon:hover, a.icon:focus, a.icon:active {}
   -o-transition: all 0.20s ease-in-out;
 }
   #contact-form button:hover {
-    background: #52964b;
+    background: #687a8a;
     -webkit-transition: all 0.20s ease-in-out;
     -moz-transition: all 0.20s ease-in-out;
     -ms-transition: all 0.20s ease-in-out;

@@ -206,7 +206,6 @@ class ContactForm extends React.Component {
 			ret = <TextArea
 				key={ data.fieldName }
       	name={ data.fieldName }
-      	placeholder={ data.placeholder }
       	value={ this.state[key].value }
       	class_name={ data.class_name }
       	validate={ data.validation }
@@ -220,7 +219,6 @@ class ContactForm extends React.Component {
 				key={ data.fieldName }
 				type={ data.type }
       	name={ data.fieldName }
-      	placeholder={ data.placeholder }
       	value={ this.state[key].value }
       	class_name={ data.class_name }
       	validate={ data.validation }
