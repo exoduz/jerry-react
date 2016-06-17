@@ -183,6 +183,16 @@ a.icon:hover, a.icon:focus, a.icon:active {}
   opacity: 0;
 }
 
+#my-location {}
+#my-location #map {
+  width: 100%;
+  height: 425px;
+}
+
+#my-location .marker-container { width: 100%; }
+#my-location .marker { width: 35px; }
+#my-location i.fa-map-marker { color: #55626d; }
+
 #contact-form .form-group { margin-bottom: 0; }
 #contact-form form input, #contact form textarea {
   height: 40px;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ContactForm from './ContactForm';
+import MapContainer from '../Map/MapContainer'
 
 class Contact extends React.Component {
 	render() {
@@ -9,6 +10,7 @@ class Contact extends React.Component {
 		    <div className="container">
 		      <div className="row">
 						<div className="col-md-6">
+							<MapContainer />
 						</div>{/* .col-md-6 */}
 
 		      	<div className="col-md-6">
